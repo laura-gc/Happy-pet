@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CE23972-29A2-41F7-9869-AFFCED2C1A96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaGUI</RootNamespace>
+    <AssemblyName>CapaGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Utils.v14.1">
+      <HintPath>..\..\Temas\DevExpress.Utils.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD_VeterinariaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_VeterinariaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Citas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Citas.Designer.cs">
+      <DependentUpon>FrmABC_Citas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Cliente.Designer.cs">
+      <DependentUpon>FrmABC_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Consultas.Designer.cs">
+      <DependentUpon>FrmABC_Consultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Mercaderia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Mercaderia.Designer.cs">
+      <DependentUpon>FrmABC_Mercaderia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Pedido.Designer.cs">
+      <DependentUpon>FrmABC_Pedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Recetario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Recetario.Designer.cs">
+      <DependentUpon>FrmABC_Recetario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Veterinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABC´S\FrmABC_Veterinario.Designer.cs">
+      <DependentUpon>FrmABC_Veterinario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBienvenido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBienvenido.Designer.cs">
+      <DependentUpon>FrmBienvenido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Reportes\FrmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Reportes\FrmInventario.Designer.cs">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarInfoMascota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarInfoMascota.Designer.cs">
+      <DependentUpon>FrmConsultarInfoMascota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI´S\FrmMDI_Mantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI´S\FrmMDI_Mantenimiento.Designer.cs">
+      <DependentUpon>FrmMDI_Mantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI´S\FrmMDI_Veterinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI´S\FrmMDI_Veterinaria.Designer.cs">
+      <DependentUpon>FrmMDI_Veterinaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistrarConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistrarConsulta.Designer.cs">
+      <DependentUpon>FrmRegistrarConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistrarRecetario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistrarRecetario.Designer.cs">
+      <DependentUpon>FrmRegistrarRecetario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteCitasDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteCitasDiario.Designer.cs">
+      <DependentUpon>FrmReporteCitasDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistroCliente.Designer.cs">
+      <DependentUpon>FrmRegistroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistroPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar\FrmRegistroPedido.Designer.cs">
+      <DependentUpon>FrmRegistroPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteClientes.Designer.cs">
+      <DependentUpon>FrmReporteClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteConsultaDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteConsultaDiario.Designer.cs">
+      <DependentUpon>FrmReporteConsultaDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReportePedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReportePedidos.Designer.cs">
+      <DependentUpon>FrmReportePedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteRecetarioDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Reportes\FrmReporteRecetarioDiario.Designer.cs">
+      <DependentUpon>FrmReporteRecetarioDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrar\FrmSolicitarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrar\FrmSolicitarCita.Designer.cs">
+      <DependentUpon>FrmSolicitarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="ABC´S\FrmABC_Citas.resx">
+      <DependentUpon>FrmABC_Citas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC´S\FrmABC_Cliente.resx">
+      <DependentUpon>FrmABC_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC´S\FrmABC_Consultas.resx">
+      <DependentUpon>FrmABC_Consultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC´S\FrmABC_Mercaderia.resx">
+      <DependentUpon>FrmABC_Mercaderia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC´S\FrmABC_Pedido.resx">
+      <DependentUpon>FrmABC_Pedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC´S\FrmABC_Recetario.resx">
+      <DependentUpon>FrmABC_Recetario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABC´S\FrmABC_Veterinario.resx">
+      <DependentUpon>FrmABC_Veterinario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBienvenido.resx">
+      <DependentUpon>FrmBienvenido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Reportes\FrmInventario.resx">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarInfoMascota.resx">
+      <DependentUpon>FrmConsultarInfoMascota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI´S\FrmMDI_Mantenimiento.resx">
+      <DependentUpon>FrmMDI_Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI´S\FrmMDI_Veterinaria.resx">
+      <DependentUpon>FrmMDI_Veterinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar\FrmRegistrarConsulta.resx">
+      <DependentUpon>FrmRegistrarConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar\FrmRegistrarRecetario.resx">
+      <DependentUpon>FrmRegistrarRecetario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar\FrmRegistroCliente.resx">
+      <DependentUpon>FrmRegistroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar\FrmRegistroPedido.resx">
+      <DependentUpon>FrmRegistroPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Reportes\FrmReporteCitasDiario.resx">
+      <DependentUpon>FrmReporteCitasDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Reportes\FrmReporteClientes.resx">
+      <DependentUpon>FrmReporteClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Reportes\FrmReporteConsultaDiario.resx">
+      <DependentUpon>FrmReporteConsultaDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Reportes\FrmReportePedidos.resx">
+      <DependentUpon>FrmReportePedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Reportes\FrmReporteRecetarioDiario.resx">
+      <DependentUpon>FrmReporteRecetarioDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrar\FrmSolicitarCita.resx">
+      <DependentUpon>FrmSolicitarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reportes\RptCitas.rdlc" />
+    <EmbeddedResource Include="Reportes\RptCliente.rdlc" />
+    <EmbeddedResource Include="Reportes\RptConsultas.rdlc" />
+    <EmbeddedResource Include="Reportes\RptInventaria.rdlc" />
+    <EmbeddedResource Include="Reportes\RptPedido.rdlc" />
+    <EmbeddedResource Include="Reportes\RptRecetario.rdlc" />
+    <None Include="BD_VeterinariaDataSet.xsc">
+      <DependentUpon>BD_VeterinariaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_VeterinariaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_VeterinariaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_VeterinariaDataSet.xss">
+      <DependentUpon>BD_VeterinariaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papeles-pintados-fondo-transparente-con-huesos-coloridos-y-patas-de-perro-sobre-fondo-blanco-adecuado-para-papel-de-regalo-papel-tapiz-y-tarjeta.jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_105699984-stock-illustration-vector-seamless-pattern-with-cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61333213-huellas-de-animales-de-colores-sin-patrón-ilustración-vectorial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8c4eb0e33d30f567281774b790efaadf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perro-gato-mascotas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb2-paws-patterns-creative-footprints-patterns-abstract-backgrounds-dog-footprints %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52613719-colorida-huella-de-los-animales-ornamento-frontera-aislado-sobre-fondo-blanco-ilustración-del-vector-pa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\657a92ae22e1d5ad5282f9ad87152664.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papeles-pintados-fondo-transparente-con-huesos-coloridos-y-patas-de-perro-sobre-fondo-blanco-adecuado-para-papel-de-regalo-papel-tapiz-y-tarjeta.jpg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDato\CapaDatos.csproj">
+      <Project>{8864912a-3125-4d49-ba6f-7db68eaeed02}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
+      <Project>{af60da46-49e0-4bf0-ad43-13486775b482}</Project>
+      <Name>CapaNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dsBuffer.bmp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\147201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\147202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-icons-deviantart-music-download-left-arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\637-6378272_resultado-de-imagen-para-huellas-de-gato-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gato-lindo-fondo-inconsutil-modelo-pastel-marron_45130-407.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0573dcda3e126ff47d34a53e7742dc36-diseno-lindo-del-patron-de-conejos-de-pascua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8c4eb0e33d30f567281774b790efaadf1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursos-de-veterinaria-gratis-.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b986a0fdc106df160e6f7d1a351d2b9f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52613719-colorida-huella-de-los-animales-ornamento-frontera-aislado-sobre-fondo-blanco-ilustración-del-vector-pa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61333213-huellas-de-animales-de-colores-sin-patrón-ilustración-vectorial1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48629558-vector-sin-patrón-con-patas-de-animales-huellas-fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e4687f0d09bb6a9ab195ae7e3905033a--paw-prints-cat-art.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-el-modelo-inconsútil-con-huellas-del-gato-o-del-perro-colorfu-lindo-82517658.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lindo-gato-patrones-fisuras_44695-22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cogs-and-gears-abstract-background-vector-in-blue-on-isolated-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fc1d3c601df8682264c4a3a4b2dbbd94-fondo-abstracto-del-engranaje.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i_busqueda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disquete-magnetico-icono-plano_100456-87.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-icon-delete-button-png-picture-thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seach1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\84138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\841381.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\102647.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1026471.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-abstracto-mecanismo-rueda-engranaje_41981-300.jpg" />
+    <Content Include="SqlServerTypes\readme.htm" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
