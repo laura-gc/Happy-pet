@@ -1,0 +1,6 @@
+C:\Users\Laura\Desktop\3 ciclo Bloque 1\SQL-C#\Proyecto\SlnProyecto2020\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\Laura\Desktop\3 ciclo Bloque 1\SQL-C#\Proyecto\SlnProyecto2020\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\Laura\Desktop\3 ciclo Bloque 1\SQL-C#\Proyecto\SlnProyecto2020\CapaDato\obj\Debug\CapaDato.csprojAssemblyReference.cache
+C:\Users\Laura\Desktop\3 ciclo Bloque 1\SQL-C#\Proyecto\SlnProyecto2020\CapaDato\obj\Debug\CapaDato.csproj.CoreCompileInputs.cache
+C:\Users\Laura\Desktop\3 ciclo Bloque 1\SQL-C#\Proyecto\SlnProyecto2020\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\Laura\Desktop\3 ciclo Bloque 1\SQL-C#\Proyecto\SlnProyecto2020\CapaDato\obj\Debug\CapaDato.pdb
