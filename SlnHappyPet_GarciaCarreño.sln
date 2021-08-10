@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaGUI", "CapaGUI\CapaGUI.csproj", "{4CE23972-29A2-41F7-9869-AFFCED2C1A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocios", "CapaNegocios\CapaNegocios.csproj", "{AF60DA46-49E0-4BF0-AD43-13486775B482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDato\CapaDatos.csproj", "{8864912A-3125-4D49-BA6F-7DB68EAEED02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE23972-29A2-41F7-9869-AFFCED2C1A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE23972-29A2-41F7-9869-AFFCED2C1A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE23972-29A2-41F7-9869-AFFCED2C1A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE23972-29A2-41F7-9869-AFFCED2C1A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF60DA46-49E0-4BF0-AD43-13486775B482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF60DA46-49E0-4BF0-AD43-13486775B482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF60DA46-49E0-4BF0-AD43-13486775B482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF60DA46-49E0-4BF0-AD43-13486775B482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8864912A-3125-4D49-BA6F-7DB68EAEED02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8864912A-3125-4D49-BA6F-7DB68EAEED02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8864912A-3125-4D49-BA6F-7DB68EAEED02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8864912A-3125-4D49-BA6F-7DB68EAEED02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {113F8DC1-04D4-4A80-86A0-EA2AF8F0FA08}
+	EndGlobalSection
+EndGlobal
