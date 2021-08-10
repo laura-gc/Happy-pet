@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button-icon-delete-button-png-picture-thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button-icon-delete-button-png-picture-thumb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8c4eb0e33d30f567281774b790efaadf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8c4eb0e33d30f567281774b790efaadf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cursos-de-veterinaria-gratis-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cursos-de-veterinaria-gratis-.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seach1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seach1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="147202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\147202.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_105699984-stock-illustration-vector-seamless-pattern-with-cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_105699984-stock-illustration-vector-seamless-pattern-with-cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b986a0fdc106df160e6f7d1a351d2b9f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b986a0fdc106df160e6f7d1a351d2b9f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dsBuffer.bmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dsBuffer.bmp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="637-6378272_resultado-de-imagen-para-huellas-de-gato-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\637-6378272_resultado-de-imagen-para-huellas-de-gato-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="48629558-vector-sin-patrón-con-patas-de-animales-huellas-fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\48629558-vector-sin-patrón-con-patas-de-animales-huellas-fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fc1d3c601df8682264c4a3a4b2dbbd94-fondo-abstracto-del-engranaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fc1d3c601df8682264c4a3a4b2dbbd94-fondo-abstracto-del-engranaje.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="52613719-colorida-huella-de-los-animales-ornamento-frontera-aislado-sobre-fondo-blanco-ilustración-del-vector-pa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52613719-colorida-huella-de-los-animales-ornamento-frontera-aislado-sobre-fondo-blanco-ilustración-del-vector-pa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vector-el-modelo-inconsútil-con-huellas-del-gato-o-del-perro-colorfu-lindo-82517658" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vector-el-modelo-inconsútil-con-huellas-del-gato-o-del-perro-colorfu-lindo-82517658.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gato-lindo-fondo-inconsutil-modelo-pastel-marron_45130-407" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gato-lindo-fondo-inconsutil-modelo-pastel-marron_45130-407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lindo-gato-patrones-fisuras_44695-22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lindo-gato-patrones-fisuras_44695-22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papeles-pintados-fondo-transparente-con-huesos-coloridos-y-patas-de-perro-sobre-fondo-blanco-adecuado-para-papel-de-regalo-papel-tapiz-y-tarjeta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papeles-pintados-fondo-transparente-con-huesos-coloridos-y-patas-de-perro-sobre-fondo-blanco-adecuado-para-papel-de-regalo-papel-tapiz-y-tarjeta.jpg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e4687f0d09bb6a9ab195ae7e3905033a--paw-prints-cat-art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e4687f0d09bb6a9ab195ae7e3905033a--paw-prints-cat-art.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_busqueda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_busqueda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="102647" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\102647.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="52613719-colorida-huella-de-los-animales-ornamento-frontera-aislado-sobre-fondo-blanco-ilustración-del-vector-pa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52613719-colorida-huella-de-los-animales-ornamento-frontera-aislado-sobre-fondo-blanco-ilustración-del-vector-pa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cogs-and-gears-abstract-background-vector-in-blue-on-isolated-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cogs-and-gears-abstract-background-vector-in-blue-on-isolated-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61333213-huellas-de-animales-de-colores-sin-patrón-ilustración-vectorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61333213-huellas-de-animales-de-colores-sin-patrón-ilustración-vectorial.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61333213-huellas-de-animales-de-colores-sin-patrón-ilustración-vectorial1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61333213-huellas-de-animales-de-colores-sin-patrón-ilustración-vectorial1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="657a92ae22e1d5ad5282f9ad87152664" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\657a92ae22e1d5ad5282f9ad87152664.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0573dcda3e126ff47d34a53e7742dc36-diseno-lindo-del-patron-de-conejos-de-pascua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0573dcda3e126ff47d34a53e7742dc36-diseno-lindo-del-patron-de-conejos-de-pascua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computer-icons-deviantart-music-download-left-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-icons-deviantart-music-download-left-arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Perro-gato-mascotas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Perro-gato-mascotas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1026471" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1026471.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papeles-pintados-fondo-transparente-con-huesos-coloridos-y-patas-de-perro-sobre-fondo-blanco-adecuado-para-papel-de-regalo-papel-tapiz-y-tarjeta.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\papeles-pintados-fondo-transparente-con-huesos-coloridos-y-patas-de-perro-sobre-fondo-blanco-adecuado-para-papel-de-regalo-papel-tapiz-y-tarjeta.jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="84138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\84138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disquete-magnetico-icono-plano_100456-87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disquete-magnetico-icono-plano_100456-87.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="147201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\147201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8c4eb0e33d30f567281774b790efaadf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8c4eb0e33d30f567281774b790efaadf1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumb2-paws-patterns-creative-footprints-patterns-abstract-backgrounds-dog-footprints (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb2-paws-patterns-creative-footprints-patterns-abstract-backgrounds-dog-footprints (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-google-search-web-search-engine-world-wide-web-blue-search-engine-optimization-electric-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="841381" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\841381.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo-abstracto-mecanismo-rueda-engranaje_41981-300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo-abstracto-mecanismo-rueda-engranaje_41981-300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
