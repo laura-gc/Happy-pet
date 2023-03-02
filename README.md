@@ -1,2 +1,2 @@
-# C-project
-Proyecto final del curso de soluciones empresariales
+# Happy Pet
+Software se escritorio de consultas veterinarias
